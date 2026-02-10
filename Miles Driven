@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int gallons = 20;
+int mpgRural = 23.5;
+int mpgUrban = 28.9;
+
+
+int main()
+{
+    cout << gallons*mpgRural;
+    cout << " Miles Driven in town ";
+    cout << gallons*mpgUrban;
+    cout << " Miles Driven on the highway ";
+}
