@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int gallons = 15;
+int miles = 375;
+
+
+int main()
+{
+    cout << miles/gallons;
+    cout << "mpg";
+}
