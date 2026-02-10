@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+string Name = "Name: Ryan Seno ";
+string Address = "Address: Marlton NJ 27 Harwood Rd 08058 ";
+string PhoneNumber = "Phone Number: 856-985-6416 ";
+string Major = "Major: Engineering ";
+string All = Name+Address+PhoneNumber+Major;
+
+int main()
+{
+    cout << "Name: Ryan Seno\nAddress: Marlton NJ 27 Harwood Rd 08058\nPhone Number: 856-985-6416\nMajor: Engineering";
+ 
+}
