@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
-int gallons = 15;
-int miles = 375;
+int gallons = 15; // Amount of gallons of gas the car has
+int miles = 375; // Amount of miles they are driving 
 
 
 int main()
 {
-    cout << miles/gallons;
-    cout << "mpg";
+    cout << miles/gallons; // Divided miles by Gallons 
+    cout << "mpg"; // Miles per Gallon of the car
 }
