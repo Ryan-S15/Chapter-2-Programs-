@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
-int gallons = 20;
-int mpgRural = 23.5;
-int mpgUrban = 28.9;
+int gallons = 20; // Amount of gallons the car has
+int mpgRural = 23.5; // Miles per gallon when driven in a rural area
+int mpgUrban = 28.9; // miles per gallon when driven in an urban/highway area
 
 
 int main()
 {
-    cout << gallons*mpgRural;
+    cout << gallons*mpgRural; // For both calculations, the gallons are multiplied by the mpg for each area and then displayed
     cout << " Miles Driven in town ";
     cout << gallons*mpgUrban;
     cout << " Miles Driven on the highway ";
