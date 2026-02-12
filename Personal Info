@@ -10,6 +10,6 @@ string All = Name+Address+PhoneNumber+Major;
 
 int main()
 {
-    cout << "Name: Ryan Seno\nAddress: Marlton NJ 27 Harwood Rd 08058\nPhone Number: 856-985-6416\nMajor: Engineering";
+    cout << "Name: Ryan Seno\nAddress: Marlton NJ 27 Harwood Rd 08058\nPhone Number: 856-985-6416\nMajor: Engineering"; // The backslash moves the info down a line so each piece is on a sperate line
  
 }
